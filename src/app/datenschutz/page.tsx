@@ -70,6 +70,31 @@ export default function DatenschutzPage() {
               </section>
 
               <section>
+                <h2 className="text-lg font-semibold text-zinc-950">Google Maps</h2>
+                <p className="mt-2 leading-7">
+                  Diese Website bindet eine Karte des Dienstes Google Maps der Google LLC,
+                  1600 Amphitheatre Parkway, Mountain View, CA 94043, USA ein. Beim Laden
+                  der Karte wird Ihre IP-Adresse an Google übertragen. Dies geschieht
+                  unabhängig davon, ob Sie ein Google-Konto besitzen oder eingeloggt sind.
+                </p>
+                <p className="mt-2 leading-7">
+                  Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse
+                  an der anschaulichen Darstellung des Bürostandorts und der Unterstützung
+                  bei der Anfahrtsplanung). Weitere Informationen zum Umgang mit
+                  Nutzerdaten durch Google finden Sie in der{" "}
+                  <a
+                    href="https://policies.google.com/privacy"
+                    className="underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Datenschutzerklärung von Google
+                  </a>
+                  .
+                </p>
+              </section>
+
+              <section>
                 <h2 className="text-lg font-semibold text-zinc-950">Ihre Rechte</h2>
                 <p className="mt-2 leading-7">
                   Sie haben das Recht auf Auskunft, Berichtigung, Löschung und
